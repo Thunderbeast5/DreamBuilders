@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Dream Builders logo">
+  <defs>
+    <style>
+      .stroke-dark { stroke: #111827; }
+      .stroke-gold { stroke: #FACC15; }
+    </style>
+  </defs>
+
+  <!-- Roof accent -->
+  <path
+    d="M36 86 L128 34 L220 86"
+    fill="none"
+    class="stroke-gold"
+    stroke-width="18"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Building outline -->
+  <path
+    d="M62 88 V210 H212"
+    fill="none"
+    class="stroke-dark"
+    stroke-width="18"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Inner wall -->
+  <path
+    d="M92 104 V210"
+    fill="none"
+    class="stroke-dark"
+    stroke-width="14"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.9"
+  />
+
+  <!-- Door arch -->
+  <path
+    d="M132 210 V146
+       C132 132 143 122 158 122
+       C173 122 184 132 184 146
+       V210"
+    fill="none"
+    class="stroke-dark"
+    stroke-width="14"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
+
